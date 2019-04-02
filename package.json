@@ -1,0 +1,29 @@
+{
+    "name": "project-accelerator",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "parcel src/index.html",
+        "build": "parcel build src/index.html"
+    },
+    "author": "Vequan Clark <vequanclark@yahoo.com> (https://vequan23.github.io/clarks-tech)",
+    "license": "MIT",
+    "dependencies": {
+        "@babel/runtime-corejs2": "7.1.2",
+        "autoprefixer": "9.2.1",
+        "postcss": "7.0.5",
+        "postcss-modules": "1.4.1",
+        "postcss-nested": "4.1.0",
+        "postcss-preset-env": "6.1.1"
+    },
+    "devDependencies": {
+        "@babel/core": "7.1.2",
+        "@babel/plugin-proposal-object-rest-spread": "7.3.2",
+        "@babel/plugin-transform-runtime": "7.1.0",
+        "babel-plugin-transform-class-properties": "6.24.1",
+        "babel-preset-env": "1.7.0",
+        "parcel-bundler": "1.11.0",
+        "postcss-custom-media": "7.0.6"
+    }
+}

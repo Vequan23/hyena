@@ -1,0 +1,129 @@
+@import "./resets.css";
+@import "./nav.css";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    margin-bottom: 1rem;
+}
+
+
+.header__text {
+    color: #1582C5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    margin-right: 1rem;
+
+}
+.header__inner-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.meta-tag-container{
+    background: #fbfbfb;
+    padding: 1.5rem;
+    width: 40rem;
+}
+.meta-tag-output__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.meta-tag-output {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 90%;
+    line-height: 1.5;
+    color: #373a3c;
+    overflow-x: auto;
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+}
+
+.meta-tag-output__copy-button {
+    background: #1482C5;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.meta-tag-output__copy-button:hover {
+   cursor: pointer;
+   background: white;
+   color: #1482C5;
+   border: 1px solid #1482C5;
+}
+
+.is-visHidden {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+.manifest-upload__input:focus + .manifest-upload__label {
+    outline: 1px solid black;
+}
+
+.manifest-upload {
+    margin-right: 10rem;
+}
+
+.manifest-upload__label {
+    border: 1px solid #1482C5;
+    color: #1482C5;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.manifest-upload__label:after {
+    content: ' \26A1';
+}
+
+.manifest-upload__label:hover {
+    cursor: pointer;
+    background: #1482C5;
+    color: white;
+}
+
+.current-file-banner {
+    background: #1582C5;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    max-height: 3rem;
+    align-items: center;
+
+}
+.is-hidden {
+    display: none;
+}
+
+.documentation {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background: #273c75;
+    color: white;
+}
+
+.external-link {
+    color: #1582C5;
+}
+.external-link:hover {
+    text-decoration: underline;
+}
+
+.header-tag {
+    color: #999;
+}

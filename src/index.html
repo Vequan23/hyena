@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color">
+    <title> Meta Generator</title>
+    <link rel="stylesheet" href="./css//main.css">
+    <link rel="manifest" href="../manifest.webmanifest" />
+</head>
+
+<body>
+    <div class="header__inner-container">
+        <h1 class="header__text">PWA Meta Tag Generator</h1>
+        <div class="current-file-banner is-hidden">
+        </div>
+    </div>
+    <div class="documentation">
+        <div>
+            <p>It is recommended that you have a complete <a class="external-link" href="https://developer.mozilla.org/en-US/docs/Web/Manifest">manifest file </a>before proceeding</p>
+            <p>You can head <a class="external-link" href="https://app-manifest.firebaseapp.com/">here</a> to generate one if you do not already have one!</p>
+        </div>
+
+    </div>
+    <main class="main-content">
+        <div class="manifest-upload">
+            <form class="manifest-upload__form" action="">
+                <input class="manifest-upload__input is-visHidden " type="file">
+                <label class="manifest-upload__label" for="">Upload Manifest.json</label>
+            </form>
+        </div>
+        <div class="meta-tag-container">
+            <div class="meta-tag-output__header">
+                <p class="header-tag">&lt;head&gt;</p>
+                <button class="meta-tag-output__copy-button">Copy</button>
+            </div>
+            <pre class="meta-tag-output"></pre>
+        </div>
+    </main>
+</body>
+
+<script src="./index.js" type="module"></script>
+
+</html>
