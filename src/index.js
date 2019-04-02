@@ -21,7 +21,7 @@ const initManifestUpload = e => {
     if (fileExtension === 'json') {
         var reader = new FileReader();
         reader.onload = onReaderLoad;
-        reader.readAsText(event.target.files[0]);
+        reader.readAsText(e.target.files[0]);
         handleCurrentFileBanner(e);
     } else {
         alert('error please upload supported file');
