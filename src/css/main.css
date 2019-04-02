@@ -1,5 +1,5 @@
 @import "./resets.css";
-@import "./nav.css";
+@import "./variables.css";
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -9,13 +9,11 @@ header {
     margin-bottom: 1rem;
 }
 
-
 .header__text {
-    color: #1582C5;
+    color: var(--color-blue-10);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3rem;
     margin-right: 1rem;
-
 }
 .header__inner-container {
     display: flex;
@@ -52,16 +50,16 @@ header {
 }
 
 .meta-tag-output__copy-button {
-    background: #1482C5;
-    color: white;
+    background: var(--color-blue-10);
+    color: var(--color-white);
     padding: 0.5rem;
     border-radius: 5px;
 }
 .meta-tag-output__copy-button:hover {
    cursor: pointer;
-   background: white;
-   color: #1482C5;
-   border: 1px solid #1482C5;
+   background: var(--color-white);
+   color: var(--color-blue-10);
+   border: 1px solid var(--color-blue-10);
 }
 
 .is-visHidden {
@@ -79,8 +77,8 @@ header {
 }
 
 .manifest-upload__label {
-    border: 1px solid #1482C5;
-    color: #1482C5;
+    border: 1px solid var(--color-blue-10);
+    color: var(--color-blue-10);
     padding: 1rem;
     border-radius: 5px;
 }
@@ -91,13 +89,13 @@ header {
 
 .manifest-upload__label:hover {
     cursor: pointer;
-    background: #1482C5;
-    color: white;
+    background: var(--color-blue-10);
+    color: var(--color-white);
 }
 
 .current-file-banner {
-    background: #1582C5;
-    color: white;
+    background: var(--color-blue-10);
+    color: var(--color-white);
     padding: 1rem;
     border-radius: 5px;
     max-height: 3rem;
@@ -113,12 +111,14 @@ header {
     justify-content: center;
     margin-bottom: 2rem;
     padding: 2rem;
-    background: #273c75;
-    color: white;
+    background: var(--color-blue-40);
+    color: var(--color-white);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
 }
 
 .external-link {
-    color: #1582C5;
+    color: var(--color-blue-10);
 }
 .external-link:hover {
     text-decoration: underline;
